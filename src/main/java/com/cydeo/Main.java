@@ -25,19 +25,6 @@ Before Generic
 
 //        LinkedList items1 = new LinkedList();
 //        items1.add(new Shape());
-
-        System.out.println("-------------------------------------------------");
-        FootballPlayer joe = new FootballPlayer("joe"); // basically joe went to this admission and Joe says
-        //hey I want to be football player. Joe is registered himself as a football player. // he is not in the team yet.
-        BaseballPlayer pat = new BaseballPlayer("pat");
-        SoccerPlayer beckham = new SoccerPlayer("beckham");
-
-        Team <SoccerPlayer>liverpool = new Team("Liverpool");// Team is accepting any object, but I do not want this.
-        // I need to mention team only should accept object belongs to   team to accept only object what I am creating at that
-        // so we need to put Generic we want to any obkect
-//        liverpool.addPlayer(joe);
-//        liverpool.addPlayer(pat);
-        liverpool.addPlayer(beckham);
     }
 // This is what people was doing.
     private static void printDouble(ArrayList<Integer> items) {
